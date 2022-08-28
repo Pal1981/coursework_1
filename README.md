@@ -8,5 +8,8 @@ ICP Coursework 1
 
 3.将网站部署到ic0.app  
 
+frontend: https://oqnxe-iaaaa-aaaam-aaqfq-cai.ic0.app/
+backend: https://a4gq6-oaaaa-aaaab-qaa4q-cai.raw.ic0.app/?id=oxmrq-fyaaa-aaaam-aaqfa-cai
+
 4.思考题:假如开发团队不再维护代码了 ，用户该怎么办?  
 
