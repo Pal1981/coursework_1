@@ -16,9 +16,9 @@ ICP开发入门课程第一课课程作业
 
     2）dfx canister --network=ic call qp2sd-aiaaa-aaaal-qa7wq-cai redeem '("67854-E8BA5-D94A7")'
 
-    3) (principal "t7nni-iqaaa-aaaal-aa6ta-cai"
+    3) (principal "wfum2-kaaaa-aaaam-aanya-cai")
 
-    4）dfx identity --network=ic set-wallet t7nni-iqaaa-aaaal-aa6ta-cai
+    4）dfx identity --network=ic set-wallet wfum2-kaaaa-aaaam-aanya-cai
 
     5) dfx wallet --network=ic balance
 
