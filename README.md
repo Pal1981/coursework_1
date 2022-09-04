@@ -6,21 +6,23 @@ ICP开发入门课程第一课课程作业
 
     1）执行 dfx new --no-frontend  创建项目,无前端脚手架
 
-    2）在frontend/assets中新建一个简易的html页面（非前端开发，简单到不能简单的单页>_<）
+    2）观察了解学习工程结构
 
-    3) dfx deploy 本地部署
+    3）在frontend/assets中新建一个简易的html页面（非前端开发，简单到不能简单的单页>_<）
+
+    4) dfx deploy 本地部署并测试
 
 2.领取cycles钱包  
 
     1) 获得qp2sd-aiaaa-aaaal-qa7wq-cai兑换地址与67854-E8BA5-D94A7兑换码
 
-    2）dfx canister --network=ic call qp2sd-aiaaa-aaaal-qa7wq-cai redeem '("67854-E8BA5-D94A7")'
+    2）dfx canister --network=ic call qp2sd-aiaaa-aaaal-qa7wq-cai redeem '("67854-E8BA5-D94A7")' 兑换cycles
 
-    3) (principal "wfum2-kaaaa-aaaam-aanya-cai")
+    3) (principal "wfum2-kaaaa-aaaam-aanya-cai") cycles wellet
 
-    4）dfx identity --network=ic set-wallet wfum2-kaaaa-aaaam-aanya-cai
+    4）dfx identity --network=ic set-wallet wfum2-kaaaa-aaaam-aanya-cai 设置当前cycles wellet
 
-    5) dfx wallet --network=ic balance
+    5) dfx wallet --network=ic balance 查询额度
 
 3.将网站部署到ic0.app  
 
